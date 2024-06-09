@@ -1,0 +1,9 @@
+@startuml class Diagram 
+title Product Model
+
+class Product{
+    
+}
+
+
+@enduml 
