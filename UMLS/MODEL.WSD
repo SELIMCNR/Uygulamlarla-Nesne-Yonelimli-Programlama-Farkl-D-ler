@@ -1,0 +1,43 @@
+@startuml
+title CarTogg Model
+class CarTogg{
+    -manufacturer : Togg //private
+    -model : T10X SUV
+    -year : 2023
+    +color : Blue //public
+    +activateWipers(speed) //public method  
+    +openSunRoof() : void
+    +playRadio() : void
+    +go(): void
+    +stop(): void
+}
+
+
+title Car2 Model
+class Car2{
+    -manufacturer : string //private
+    -model : string
+    -year : int
+    +color : string //public
+    +activateWipers(speed) //public method  
+    +openSunRoof() : void
+    +playRadio() : void
+    +drive(): void
+    +stop(): void
+}
+
+
+title Car3 Model
+class Car3{
+    -manufacturer : string //private
+    -model : string
+    -year : int
+    +color : string //public
+    +activateWipers(speed) //public method  
+    +openSunRoof() : void
+    +playRadio() : void
+    +drive(): void
+    +stop(): void
+}
+
+@enduml
