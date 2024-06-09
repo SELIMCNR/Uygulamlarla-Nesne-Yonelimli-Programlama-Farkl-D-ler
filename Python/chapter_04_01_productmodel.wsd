@@ -19,5 +19,12 @@ class Product{
     +getTotalPrice() :float
 }
 
+class ProductHelper{
+    +{static}createItemFromText()
+    +{static}getBalance()
+}
 
-@enduml 
+Product -u-|> Object : <<extends>>
+ProductHelper -l-|> Object : <<extends>>
+hide empty members
+@enduml
